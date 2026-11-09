@@ -1,0 +1,151 @@
+{
+  "document" : {
+    "days" : [
+      {
+        "exercises" : [
+          {
+            "exerciseRef" : "exercise:fedb-dumbbell-squat",
+            "nameRaw" : "Przysiad z hantlami",
+            "order" : "1",
+            "reps" : {
+              "max" : 12,
+              "min" : 10
+            },
+            "restSec" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-pushups",
+            "nameRaw" : "Pompki",
+            "note" : "Łatwiejsza wersja: z dłońmi na podwyższeniu albo z kolanami na podłodze.",
+            "order" : "2",
+            "reps" : {
+              "max" : 12,
+              "min" : 8
+            },
+            "restSec" : 60,
+            "restSecMax" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-one-arm-dumbbell-row",
+            "nameRaw" : "Wiosłowanie hantlem jednorącz",
+            "order" : "3",
+            "perSide" : true,
+            "reps" : {
+              "max" : 12,
+              "min" : 10
+            },
+            "restSec" : 60,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-butt-lift-bridge",
+            "nameRaw" : "Most biodrowy",
+            "order" : "4",
+            "reps" : {
+              "max" : 15,
+              "min" : 12
+            },
+            "restSec" : 60,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "durationSec" : 30,
+            "exerciseRef" : "exercise:fedb-plank",
+            "nameRaw" : "Deska",
+            "note" : "Ciało w jednej linii, brzuch napięty.",
+            "order" : "5",
+            "restSec" : 45,
+            "section" : "main",
+            "sets" : 3
+          }
+        ],
+        "focus" : "Całe ciało",
+        "label" : "Trening A"
+      },
+      {
+        "exercises" : [
+          {
+            "exerciseRef" : "exercise:fedb-dumbbell-lunges",
+            "nameRaw" : "Wykroki z hantlami",
+            "order" : "1",
+            "perSide" : true,
+            "reps" : {
+              "max" : 10,
+              "min" : 8
+            },
+            "restSec" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-stiff-legged-dumbbell-deadlift",
+            "nameRaw" : "Martwy ciąg na prostych nogach z hantlami",
+            "note" : "Plecy proste, ruch z bioder.",
+            "order" : "2",
+            "reps" : {
+              "max" : 12,
+              "min" : 10
+            },
+            "restSec" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-dumbbell-shoulder-press",
+            "nameRaw" : "Wyciskanie hantli nad głowę",
+            "order" : "3",
+            "reps" : {
+              "max" : 10,
+              "min" : 8
+            },
+            "restSec" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "exerciseRef" : "exercise:fedb-bent-over-two-dumbbell-row",
+            "nameRaw" : "Wiosłowanie hantlami w opadzie tułowia",
+            "order" : "4",
+            "reps" : {
+              "max" : 12,
+              "min" : 10
+            },
+            "restSec" : 60,
+            "restSecMax" : 90,
+            "section" : "main",
+            "sets" : 3
+          },
+          {
+            "durationSec" : 30,
+            "exerciseRef" : "exercise:fedb-side-bridge",
+            "nameRaw" : "Deska bokiem",
+            "order" : "5",
+            "perSide" : true,
+            "restSec" : 30,
+            "section" : "main",
+            "sets" : 2
+          }
+        ],
+        "focus" : "Całe ciało",
+        "label" : "Trening B"
+      }
+    ],
+    "description" : "Dwa treningi całego ciała na zmianę, trzy razy w tygodniu. Potrzebne są hantle i mata. Wymyślone dane do wypróbowania aplikacji.",
+    "kind" : "training",
+    "notes" : [
+      "Przed treningiem 5–10 minut rozgrzewki, np. marsz w miejscu i krążenia ramion.",
+      "Ciężar dobrać tak, by ostatnie powtórzenia w serii były wymagające, a technika pozostała poprawna."
+    ],
+    "origin" : "imported",
+    "schemaVersion" : 1,
+    "suggestedDaysPerWeek" : 3,
+    "title" : "Plan treningowy na całe ciało"
+  },
+  "planID" : "01a1b5aa-4f80-7ef3-b4af-b4537ae48c36"
+}

@@ -1,0 +1,1027 @@
+{
+  "document" : {
+    "days" : [
+      {
+        "label" : "Dzień 1",
+        "meals" : [
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 700,
+                  "foodRef" : "food:platki-owsiane",
+                  "lineId" : "l1",
+                  "name" : "płatki owsiane",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 2500,
+                  "foodRef" : "food:mleko-2",
+                  "lineId" : "l2",
+                  "name" : "mleko 2%",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:jablko",
+                  "lineId" : "l3",
+                  "name" : "jabłko",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 150,
+                  "foodRef" : "food:orzechy-wloskie",
+                  "lineId" : "l4",
+                  "name" : "orzechy włoskie",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 10,
+                  "foodRef" : "food:cynamon",
+                  "lineId" : "l5",
+                  "name" : "cynamon",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 10,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 71,
+                "fat_g" : 20,
+                "kcal" : 564,
+                "protein_g" : 20
+              },
+              "steps" : [
+                {
+                  "text" : "Płatki owsiane zalać mlekiem i gotować 3–4 minuty, mieszając."
+                },
+                {
+                  "text" : "Dodać pokrojone jabłko, posiekane orzechy i cynamon."
+                }
+              ],
+              "title" : "Owsianka z jabłkiem i orzechami"
+            },
+            "slotId" : "sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:chleb-zytni-razowy",
+                  "lineId" : "l1",
+                  "name" : "chleb żytni razowy",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:twarog-poltlusty",
+                  "lineId" : "l2",
+                  "name" : "twaróg półtłusty",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 300,
+                  "foodRef" : "food:jogurt-naturalny",
+                  "lineId" : "l3",
+                  "name" : "jogurt naturalny",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 600,
+                  "foodRef" : "food:rzodkiewka",
+                  "lineId" : "l4",
+                  "name" : "rzodkiewka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:szczypiorek",
+                  "lineId" : "l5",
+                  "name" : "szczypiorek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 5,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 47,
+                "fat_g" : 5,
+                "kcal" : 338,
+                "protein_g" : 23
+              },
+              "steps" : [
+                {
+                  "text" : "Twaróg wymieszać z jogurtem i posiekanym szczypiorkiem."
+                },
+                {
+                  "text" : "Posmarować pieczywo i ułożyć plasterki rzodkiewki."
+                }
+              ],
+              "title" : "Kanapki z twarożkiem i rzodkiewką"
+            },
+            "slotId" : "drugie-sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:piers-z-kurczaka",
+                  "lineId" : "l1",
+                  "name" : "pierś z kurczaka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 700,
+                  "foodRef" : "food:kasza-gryczana",
+                  "lineId" : "l2",
+                  "name" : "kasza gryczana",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 2000,
+                  "foodRef" : "food:brokul",
+                  "lineId" : "l3",
+                  "name" : "brokuł",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:oliwa",
+                  "lineId" : "l4",
+                  "name" : "oliwa z oliwek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 25,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 53,
+                "fat_g" : 17,
+                "kcal" : 578,
+                "protein_g" : 48
+              },
+              "steps" : [
+                {
+                  "text" : "Kaszę ugotować według opisu na opakowaniu."
+                },
+                {
+                  "text" : "Pierś z kurczaka pokroić i usmażyć na oliwie 8–10 minut."
+                },
+                {
+                  "text" : "Brokuł ugotować na parze 5–6 minut. Podać razem."
+                }
+              ],
+              "title" : "Kurczak z kaszą gryczaną i brokułem"
+            },
+            "slotId" : "obiad"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 2000,
+                  "foodRef" : "food:jogurt-grecki",
+                  "lineId" : "l1",
+                  "name" : "jogurt grecki 2%",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:maliny",
+                  "lineId" : "l2",
+                  "name" : "maliny",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:miod",
+                  "lineId" : "l3",
+                  "name" : "miód",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 3,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 22,
+                "fat_g" : 4,
+                "kcal" : 224,
+                "protein_g" : 21
+              },
+              "steps" : [
+                {
+                  "text" : "Jogurt przełożyć do miseczki, dodać maliny i polać miodem."
+                }
+              ],
+              "title" : "Jogurt grecki z malinami i miodem"
+            },
+            "slotId" : "podwieczorek"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:tunczyk",
+                  "lineId" : "l1",
+                  "name" : "tuńczyk w sosie własnym",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 600,
+                  "foodRef" : "food:jajko",
+                  "lineId" : "l2",
+                  "name" : "jajko",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 500,
+                  "foodRef" : "food:mix-salat",
+                  "lineId" : "l3",
+                  "name" : "mix sałat",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:pomidor",
+                  "lineId" : "l4",
+                  "name" : "pomidor",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:ogorek",
+                  "lineId" : "l5",
+                  "name" : "ogórek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:oliwa",
+                  "lineId" : "l6",
+                  "name" : "oliwa z oliwek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 900,
+                  "foodRef" : "food:chleb-pelnoziarnisty",
+                  "lineId" : "l7",
+                  "name" : "chleb pełnoziarnisty",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 15,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 41,
+                "fat_g" : 20,
+                "kcal" : 511,
+                "protein_g" : 37
+              },
+              "steps" : [
+                {
+                  "text" : "Jajko ugotować na twardo (ok. 9 minut), obrać i pokroić."
+                },
+                {
+                  "text" : "Sałatę, pomidor i ogórek pokroić, dodać odsączonego tuńczyka i jajko."
+                },
+                {
+                  "text" : "Skropić oliwą. Podać z pieczywem."
+                }
+              ],
+              "title" : "Sałatka z tuńczykiem, jajkiem i pieczywem"
+            },
+            "slotId" : "kolacja"
+          }
+        ],
+        "statedTotals" : {
+          "carbs_g" : 234,
+          "fat_g" : 66,
+          "kcal" : 2215,
+          "protein_g" : 149
+        }
+      },
+      {
+        "label" : "Dzień 2",
+        "meals" : [
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:jajko",
+                  "lineId" : "l1",
+                  "name" : "jajka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:maslo",
+                  "lineId" : "l2",
+                  "name" : "masło",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:szczypiorek",
+                  "lineId" : "l3",
+                  "name" : "szczypiorek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:chleb-zytni-razowy",
+                  "lineId" : "l4",
+                  "name" : "chleb żytni razowy",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:pomidor",
+                  "lineId" : "l5",
+                  "name" : "pomidor",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 10,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 45,
+                "fat_g" : 22,
+                "kcal" : 505,
+                "protein_g" : 29
+              },
+              "steps" : [
+                {
+                  "text" : "Jajka roztrzepać i ściąć na maśle na małym ogniu."
+                },
+                {
+                  "text" : "Posypać szczypiorkiem. Podać z pieczywem i pokrojonym pomidorem."
+                }
+              ],
+              "title" : "Jajecznica ze szczypiorkiem i pomidorem"
+            },
+            "slotId" : "sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:skyr-naturalny",
+                  "lineId" : "l1",
+                  "name" : "skyr naturalny",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:borowki-amerykanskie",
+                  "lineId" : "l2",
+                  "name" : "borówki amerykańskie",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 400,
+                  "foodRef" : "food:platki-owsiane",
+                  "lineId" : "l3",
+                  "name" : "płatki owsiane",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:miod",
+                  "lineId" : "l4",
+                  "name" : "miód",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 3,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 49,
+                "fat_g" : 4,
+                "kcal" : 325,
+                "protein_g" : 21
+              },
+              "steps" : [
+                {
+                  "text" : "Skyr wymieszać z płatkami, dodać borówki i polać miodem."
+                }
+              ],
+              "title" : "Skyr z borówkami, płatkami i miodem"
+            },
+            "slotId" : "drugie-sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:losos",
+                  "lineId" : "l1",
+                  "name" : "filet z łososia",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 3000,
+                  "foodRef" : "food:ziemniaki",
+                  "lineId" : "l2",
+                  "name" : "ziemniaki",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:marchew",
+                  "lineId" : "l3",
+                  "name" : "marchew",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 500,
+                  "foodRef" : "food:jablko",
+                  "lineId" : "l4",
+                  "name" : "jabłko",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:sok-z-cytryny",
+                  "lineId" : "l5",
+                  "name" : "sok z cytryny",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:olej-rzepakowy",
+                  "lineId" : "l6",
+                  "name" : "olej rzepakowy",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 30,
+                  "foodRef" : "food:koperek",
+                  "lineId" : "l7",
+                  "name" : "koperek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 30,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 59,
+                "fat_g" : 26,
+                "kcal" : 642,
+                "protein_g" : 38
+              },
+              "steps" : [
+                {
+                  "text" : "Ziemniaki obrać i ugotować do miękkości, ok. 20 minut."
+                },
+                {
+                  "text" : "Łososia upiec w 200 °C przez 12–15 minut."
+                },
+                {
+                  "text" : "Marchew i jabłko zetrzeć, wymieszać z sokiem z cytryny i olejem. Ziemniaki posypać koperkiem."
+                }
+              ],
+              "title" : "Łosoś z ziemniakami i surówką z marchewki"
+            },
+            "slotId" : "obiad"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1500,
+                  "foodRef" : "food:banan",
+                  "lineId" : "l1",
+                  "name" : "banan",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 200,
+                  "foodRef" : "food:maslo-orzechowe",
+                  "lineId" : "l2",
+                  "name" : "masło orzechowe",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 2,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 34,
+                "fat_g" : 11,
+                "kcal" : 266,
+                "protein_g" : 6
+              },
+              "steps" : [
+                {
+                  "text" : "Banana pokroić w plasterki i podać z masłem orzechowym."
+                }
+              ],
+              "title" : "Banan z masłem orzechowym"
+            },
+            "slotId" : "podwieczorek"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:tortilla-pszenna",
+                  "lineId" : "l1",
+                  "name" : "tortilla pszenna",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1200,
+                  "foodRef" : "food:piers-z-indyka",
+                  "lineId" : "l2",
+                  "name" : "pierś z indyka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 200,
+                  "foodRef" : "food:hummus",
+                  "lineId" : "l3",
+                  "name" : "hummus",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:papryka-czerwona",
+                  "lineId" : "l4",
+                  "name" : "papryka czerwona",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 300,
+                  "foodRef" : "food:salata-lodowa",
+                  "lineId" : "l5",
+                  "name" : "sałata lodowa",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 500,
+                  "foodRef" : "food:jogurt-naturalny",
+                  "lineId" : "l6",
+                  "name" : "jogurt naturalny",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 30,
+                  "foodRef" : "food:czosnek",
+                  "lineId" : "l7",
+                  "name" : "czosnek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 15,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 47,
+                "fat_g" : 13,
+                "kcal" : 476,
+                "protein_g" : 40
+              },
+              "steps" : [
+                {
+                  "text" : "Pierś z indyka pokroić w paski i usmażyć na suchej patelni 6–8 minut."
+                },
+                {
+                  "text" : "Jogurt wymieszać z przeciśniętym czosnkiem."
+                },
+                {
+                  "text" : "Tortillę posmarować hummusem, ułożyć sałatę, paprykę i indyka, polać sosem i zawinąć."
+                }
+              ],
+              "title" : "Tortilla z indykiem, hummusem i warzywami"
+            },
+            "slotId" : "kolacja"
+          }
+        ],
+        "statedTotals" : {
+          "carbs_g" : 234,
+          "fat_g" : 76,
+          "kcal" : 2214,
+          "protein_g" : 134
+        }
+      },
+      {
+        "label" : "Dzień 3",
+        "meals" : [
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1200,
+                  "foodRef" : "food:chleb-pelnoziarnisty",
+                  "lineId" : "l1",
+                  "name" : "chleb pełnoziarnisty",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 600,
+                  "foodRef" : "food:hummus",
+                  "lineId" : "l2",
+                  "name" : "hummus",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:ogorek",
+                  "lineId" : "l3",
+                  "name" : "ogórek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:papryka-czerwona",
+                  "lineId" : "l4",
+                  "name" : "papryka czerwona",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 200,
+                  "foodRef" : "food:roszponka",
+                  "lineId" : "l5",
+                  "name" : "roszponka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 5,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 56,
+                "fat_g" : 15,
+                "kcal" : 473,
+                "protein_g" : 21
+              },
+              "steps" : [
+                {
+                  "text" : "Pieczywo posmarować hummusem."
+                },
+                {
+                  "text" : "Ułożyć roszponkę, plasterki ogórka i paski papryki."
+                }
+              ],
+              "title" : "Kanapki z hummusem i warzywami"
+            },
+            "slotId" : "sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 2500,
+                  "foodRef" : "food:kefir",
+                  "lineId" : "l1",
+                  "name" : "kefir",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:truskawki-mrozone",
+                  "lineId" : "l2",
+                  "name" : "truskawki mrożone",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:banan",
+                  "lineId" : "l3",
+                  "name" : "banan",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 200,
+                  "foodRef" : "food:platki-owsiane",
+                  "lineId" : "l4",
+                  "name" : "płatki owsiane",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:siemie-lniane",
+                  "lineId" : "l5",
+                  "name" : "siemię lniane",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 5,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 51,
+                "fat_g" : 9,
+                "kcal" : 361,
+                "protein_g" : 15
+              },
+              "steps" : [
+                {
+                  "text" : "Wszystkie składniki zmiksować na gładko."
+                }
+              ],
+              "title" : "Koktajl kefirowy z truskawkami i bananem"
+            },
+            "slotId" : "drugie-sniadanie"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 800,
+                  "foodRef" : "food:makaron-pelnoziarnisty",
+                  "lineId" : "l1",
+                  "name" : "makaron pełnoziarnisty",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1200,
+                  "foodRef" : "food:indyk-mielony",
+                  "lineId" : "l2",
+                  "name" : "mięso mielone z indyka",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 2000,
+                  "foodRef" : "food:passata",
+                  "lineId" : "l3",
+                  "name" : "passata",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 500,
+                  "foodRef" : "food:cebula",
+                  "lineId" : "l4",
+                  "name" : "cebula",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:czosnek",
+                  "lineId" : "l5",
+                  "name" : "czosnek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:oliwa",
+                  "lineId" : "l6",
+                  "name" : "oliwa z oliwek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 10,
+                  "foodRef" : "food:bazylia",
+                  "lineId" : "l7",
+                  "name" : "bazylia suszona",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 100,
+                  "foodRef" : "food:parmezan",
+                  "lineId" : "l8",
+                  "name" : "parmezan",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 25,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 71,
+                "fat_g" : 25,
+                "kcal" : 702,
+                "protein_g" : 43
+              },
+              "steps" : [
+                {
+                  "text" : "Makaron ugotować według opisu na opakowaniu."
+                },
+                {
+                  "text" : "Cebulę i czosnek posiekać, zeszklić na oliwie, dodać mięso i smażyć 5 minut."
+                },
+                {
+                  "text" : "Wlać passatę, dodać bazylię i dusić 10 minut. Wymieszać z makaronem i posypać parmezanem."
+                }
+              ],
+              "title" : "Makaron pełnoziarnisty z indykiem w sosie pomidorowym"
+            },
+            "slotId" : "obiad"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 1800,
+                  "foodRef" : "food:jablko",
+                  "lineId" : "l1",
+                  "name" : "jabłko",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 250,
+                  "foodRef" : "food:migdaly",
+                  "lineId" : "l2",
+                  "name" : "migdały",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 2,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 23,
+                "fat_g" : 13,
+                "kcal" : 244,
+                "protein_g" : 6
+              },
+              "steps" : [
+                {
+                  "text" : "Jabłko umyć i pokroić. Podać z migdałami."
+                }
+              ],
+              "title" : "Jabłko z migdałami"
+            },
+            "slotId" : "podwieczorek"
+          },
+          {
+            "recipe" : {
+              "ingredients" : [
+                {
+                  "amount_dg" : 2000,
+                  "foodRef" : "food:serek-wiejski",
+                  "lineId" : "l1",
+                  "name" : "serek wiejski",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 900,
+                  "foodRef" : "food:chleb-zytni-razowy",
+                  "lineId" : "l2",
+                  "name" : "chleb żytni razowy",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 1000,
+                  "foodRef" : "food:pomidorki-koktajlowe",
+                  "lineId" : "l3",
+                  "name" : "pomidorki koktajlowe",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                },
+                {
+                  "amount_dg" : 50,
+                  "foodRef" : "food:szczypiorek",
+                  "lineId" : "l4",
+                  "name" : "szczypiorek",
+                  "scaling" : "linear",
+                  "unit" : "g"
+                }
+              ],
+              "prepMinutes" : 5,
+              "servings" : 1,
+              "statedNutrition" : {
+                "carbs_g" : 46,
+                "fat_g" : 12,
+                "kcal" : 429,
+                "protein_g" : 31
+              },
+              "steps" : [
+                {
+                  "text" : "Serek wymieszać z posiekanym szczypiorkiem."
+                },
+                {
+                  "text" : "Podać z pieczywem i przekrojonymi pomidorkami."
+                }
+              ],
+              "title" : "Serek wiejski z pieczywem i pomidorkami"
+            },
+            "slotId" : "kolacja"
+          }
+        ],
+        "statedTotals" : {
+          "carbs_g" : 247,
+          "fat_g" : 74,
+          "kcal" : 2209,
+          "protein_g" : 116
+        }
+      }
+    ],
+    "description" : "Trzy dni po pięć posiłków, ok. 2200 kcal dziennie. Wymyślone dane do wypróbowania aplikacji.",
+    "kind" : "meal",
+    "levels" : [
+
+    ],
+    "notes" : [
+      "Ilości są podane w gramach, dla jednej osoby.",
+      "Wartości odżywcze są przybliżone."
+    ],
+    "origin" : "imported",
+    "scalable" : true,
+    "schemaVersion" : 1,
+    "slots" : [
+      {
+        "defaultTime" : "07:30",
+        "id" : "sniadanie",
+        "name" : "Śniadanie"
+      },
+      {
+        "defaultTime" : "10:30",
+        "id" : "drugie-sniadanie",
+        "name" : "II śniadanie"
+      },
+      {
+        "defaultTime" : "13:30",
+        "id" : "obiad",
+        "name" : "Obiad"
+      },
+      {
+        "defaultTime" : "16:30",
+        "id" : "podwieczorek",
+        "name" : "Podwieczorek"
+      },
+      {
+        "defaultTime" : "19:00",
+        "id" : "kolacja",
+        "name" : "Kolacja"
+      }
+    ],
+    "statedLevel" : {
+      "kcal" : 2200
+    },
+    "title" : "Jadłospis na 3 dni"
+  },
+  "planID" : "01a1b5aa-4f80-7921-b7cb-5242a847f270"
+}
