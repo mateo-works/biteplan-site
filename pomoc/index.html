@@ -7,7 +7,7 @@
 <meta name="color-scheme" content="light dark">
 <meta name="referrer" content="no-referrer">
 <title>Pomoc i kontakt – BitePlan</title>
-<meta name="description" content="Pomoc i kontakt dla wersji testowej BitePlan: instalacja, kopia danych, plan z pliku, usuwanie danych.">
+<meta name="description" content="Pomoc i kontakt dla wersji testowej BitePlan: instalacja, kopia danych, plan z pliku, udostępnianie, usuwanie danych.">
 <link rel="icon" href="data:,">
 <style>:root{color-scheme:light dark;--bg:#fffaf2;--surface:#fbeedc;--text:#22180f;--muted:#5c4836;--link:#9c3d06;--focus:#b84a0a;--mark-bg:#ffe08a;--mark-text:#22180f;--border:#e9d5bc;}
 @media (prefers-color-scheme:dark){:root{--bg:#18120d;--surface:#271e16;--text:#f6eee5;--muted:#d2bfab;--link:#ffb07a;--focus:#ff9a52;--mark-bg:#5a3d00;--mark-text:#fff1cc;--border:#4a3a2c;}}
@@ -89,6 +89,9 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 <li><a href="#jak-zrobic-kopie-danych">Jak zrobić kopię danych?</a></li>
 <li><a href="#jak-przywrocic-dane-albo-przeniesc-je-na-nowy-iphone">Jak przywrócić dane albo przenieść je na nowy iPhone?</a></li>
 <li><a href="#jak-dodac-do-biteplan-swoj-obecny-plan">Jak dodać do BitePlan swój obecny plan?</a></li>
+<li><a href="#jak-udostepnic-plan">Jak udostępnić plan?</a></li>
+<li><a href="#jak-zaprosic-kogos-do-testow">Jak zaprosić kogoś do testów?</a></li>
+<li><a href="#jak-usunac-plan">Jak usunąć plan?</a></li>
 <li><a href="#jak-dziala-polaczenie-z-aplikacja-zdrowie">Jak działa połączenie z aplikacją Zdrowie?</a></li>
 <li><a href="#jakie-powiadomienia-wysyla-biteplan">Jakie powiadomienia wysyła BitePlan?</a></li>
 <li><a href="#jak-usunac-dane">Jak usunąć dane?</a></li>
@@ -101,9 +104,9 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 </nav>
 <h2 id="wersja-testowa">Wersja testowa</h2>
 <ul>
-<li>BitePlan jest bezpłatny i w tej wersji dostępny tylko dla zaproszonych osób pełnoletnich (18+).</li>
+<li>BitePlan jest bezpłatny, a ta wersja testowa jest przeznaczona dla osób pełnoletnich (18+).</li>
 <li>Działa na iPhonie z iOS 18 lub nowszym.</li>
-<li>Instalacja: otwórz zaproszenie z e-maila, zainstaluj z App Store aplikację TestFlight, a w niej BitePlan.</li>
+<li>Instalacja: otwórz zaproszenie z e-maila albo link do instalacji, np. od osoby, która już testuje (pytanie <a href="#jak-zaprosic-kogos-do-testow">„Jak zaprosić kogoś do testów?”</a>). Potem zainstaluj z App Store aplikację TestFlight, a w niej BitePlan.</li>
 <li>Każda wersja testowa działa do 90 dni. Nowa wersja pojawia się w TestFlight, zanim poprzednia wygaśnie, a Twoje dane zostają przy aktualizacji.</li>
 <li>Dane są na Twoim iPhonie, a nie na serwerze, więc warto co jakiś czas zapisać kopię danych (pytanie <a href="#jak-zrobic-kopie-danych">„Jak zrobić kopię danych?”</a>).</li>
 </ul>
@@ -118,7 +121,7 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 <h3 id="czy-potrzebne-jest-konto">Czy potrzebne jest konto?</h3>
 <p>Nie. W tej wersji nie ma kont, logowania ani kodów zaproszenia, a aplikacja nie łączy się z żadnym serwerem BitePlan.</p>
 <h3 id="gdzie-sa-moje-dane">Gdzie są moje dane?</h3>
-<p>Na Twoim iPhonie, w jego kopii zapasowej (iCloud albo komputer), jeśli jest włączona, oraz w plikach kopii i arkuszach zapisanych poza aplikacją. Autor nie ma do nich dostępu.</p>
+<p>Na Twoim iPhonie, w jego kopii zapasowej (iCloud albo komputer), jeśli jest włączona, oraz w plikach kopii i arkuszach zapisanych poza aplikacją. Autor nie ma do nich dostępu. Plan, który komuś udostępnisz, ma też ta osoba.</p>
 <h3 id="jak-zrobic-kopie-danych">Jak zrobić kopię danych?</h3>
 <p>Profil i ustawienia → Twoje dane → „Eksportuj kopię danych”, a potem wybierz miejsce, np. w Plikach. Plik nie jest zaszyfrowany, więc warto go przechowywać jak dokument osobisty. „Przypominaj o kopii” przypomina o 19:00, raz w tygodniu, gdy od ostatniej kopii minęło ponad 30 dni albo kopii jeszcze nie ma.</p>
 <p>Arkusz do Numbers lub Excela: Profil i ustawienia → Twoje dane → „Eksportuj arkusz (CSV)”.</p>
@@ -131,10 +134,26 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 <ol>
 <li>Wyślij plan (np. od dietetyka albo trenera) na <a href="mailto:hi@mateo.works">hi@mateo.works</a> albo w wiadomości. Przed wysłaniem warto usunąć imię i nazwisko, dane kontaktowe i informacje o zdrowiu. Do planu potrzebne są tylko posiłki, składniki z gramaturą i ćwiczenia. Co dzieje się z wysłanym planem, opisuje <a href="../prywatnosc/#sekcja-8">polityka prywatności w sekcji 8</a>.</li>
 <li>Autor przygotuje z niego plik BitePlan i odeśle go.</li>
-<li>Zapisz plik w Plikach (w Wiadomościach lub Poczcie: przytrzymaj załącznik i wybierz zapis w Plikach). Potem w BitePlan: Biblioteka → Moje plany → „Wczytaj plan z pliku” i wybierz ten plik.</li>
+<li>Plik z końcówką <code>.biteplan</code> otwórz w BitePlan: aplikacja pokaże, co to za plan, a „Dodaj plan” go doda. Jeśli ten plan już jest w innej wersji, można go zastąpić wersją z pliku (tego nie da się cofnąć; historia treningów, ciężary i zjedzone posiłki zostają) albo dodać jako osobny plan. Plik <code>.json</code> albo taki, który nie otwiera się w BitePlan, zapisz w Plikach (w Wiadomościach lub Poczcie: przytrzymaj załącznik i wybierz zapis w Plikach). Potem w BitePlan: Biblioteka → Moje plany → „Wczytaj plan z pliku” i wybierz ten plik.</li>
 <li>Jadłospis pojawi się w Moich planach. Wybierz go, potem poziom kcal („Wg planu” albo inny) i dzień rozpoczęcia. Plan treningowy pojawi się w zakładce Trening.</li>
 </ol>
-<p>Plan zostaje tylko na tym iPhonie. Ponowne wczytanie tego samego pliku niczego nie zmienia.</p>
+<p>BitePlan sam nigdzie nie wysyła planu. Dodany plan jest na tym iPhonie (oraz w kopii danych i w kopii zapasowej iPhone'a, jeśli je masz), a do innej osoby trafia tylko wtedy, gdy go udostępnisz. Ponowne wczytanie tego samego pliku nie dodaje drugiej kopii.</p>
+<h3 id="jak-udostepnic-plan">Jak udostępnić plan?</h3>
+<ul>
+<li><strong>Plan w toku:</strong> w Treningu albo w Jadłospisie (widok Plan) menu „⋯” → „Udostępnij plan”.</li>
+<li><strong>Każdy plan:</strong> przytrzymaj go na liście (Biblioteka, Trening albo Trening → „⋯” → „Zmień plan”) i wybierz „Udostępnij plan”.</li>
+</ul>
+<p>Plan idzie jako plik, np. przez AirDrop albo Wiadomości, tylko do osoby lub aplikacji, którą wybierzesz. Aplikacje, które to obsługują (np. Wiadomości), dostają też krótki tekst z linkiem do instalacji BitePlan. Osoba, która dostanie plik, może go zapisać i przekazać dalej.</p>
+<p>W pliku jest tylko plan, bez Twoich wpisów, ciężarów, notatek i historii. Plan przygotowany z dokumentu (np. od dietetyka) idzie w całości, także z datami i tekstem z oryginału. Szczegóły są w <a href="../prywatnosc/#sekcja-7">polityce prywatności, w sekcji 7</a>.</p>
+<h3 id="jak-zaprosic-kogos-do-testow">Jak zaprosić kogoś do testów?</h3>
+<p>Profil i ustawienia → Udostępnij BitePlan. Druga osoba skanuje kod QR aparatem iPhone'a albo dostaje link przez „Wyślij link”. Link prowadzi do instalacji przez TestFlight i jest taki sam dla wszystkich. Może go przekazać dalej każdy, kto go ma, więc przekazuj go tylko osobom dorosłym (18+).</p>
+<h3 id="jak-usunac-plan">Jak usunąć plan?</h3>
+<p>Przytrzymaj plan w Moich planach i wybierz „Usuń”: jadłospis w Bibliotece, plan treningowy w Treningu (gdy trwa inny plan treningowy: Trening → „⋯” → „Zmień plan”). Zaraz potem można to cofnąć („Cofnij”).</p>
+<ul>
+<li>Nie da się usunąć planów wbudowanych w aplikację ani planu w toku, także jadłospisu, który ma się dopiero zacząć. Plan treningowy najpierw zakończ („Zakończ plan”), a jadłospis przestaje być w toku, gdy zaczniesz inny.</li>
+<li>Zjedzone posiłki i historia treningów zostają.</li>
+<li>Usunięty plan znika z list, ale zostaje w danych aplikacji, oznaczony jako usunięty. Całkowicie usuwa go „Usuń dane z tego iPhone'a…”. Ponowne wczytanie jego pliku przywraca go do Moich planów.</li>
+</ul>
 <h3 id="jak-dziala-polaczenie-z-aplikacja-zdrowie">Jak działa połączenie z aplikacją Zdrowie?</h3>
 <p>Obie funkcje są domyślnie wyłączone.</p>
 <ul>
@@ -145,7 +164,7 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 <h3 id="jakie-powiadomienia-wysyla-biteplan">Jakie powiadomienia wysyła BitePlan?</h3>
 <p>Koniec przerwy w treningu (o zgodę iOS pyta przy pierwszej przerwie) oraz tylko te przypomnienia, które włączysz: o odhaczeniu w wyzwaniu (na ekranie wyzwania) i o kopii danych (Profil i ustawienia → Twoje dane). Gdy powiadomienia są wyłączone w Ustawieniach iPhone'a, przy przełączniku pojawia się „Otwórz ustawienia powiadomień”.</p>
 <h3 id="jak-usunac-dane">Jak usunąć dane?</h3>
-<p>Profil i ustawienia → Twoje dane → „Usuń dane z tego iPhone'a…”. Aplikacja pyta dwa razy i proponuje najpierw zapisanie kopii. Tego nie da się cofnąć. Usunięcie aplikacji też usuwa jej dane z telefonu. Kopie zapisane poza aplikacją i treningi w aplikacji Zdrowie zostają tam, gdzie są.</p>
+<p>Profil i ustawienia → Twoje dane → „Usuń dane z tego iPhone'a…”. Aplikacja pyta dwa razy i proponuje najpierw zapisanie kopii. Tego nie da się cofnąć. Usunięcie aplikacji też usuwa jej dane z telefonu. Kopie zapisane poza aplikacją, pliki z planem w wiadomościach i w Plikach, plany wysłane innym osobom i treningi w aplikacji Zdrowie zostają tam, gdzie są.</p>
 <h3 id="czy-biteplan-zastepuje-dietetyka">Czy BitePlan zastępuje dietetyka?</h3>
 <p>Nie. BitePlan nie jest opieką medyczną. Nie stawia diagnoz, nie leczy i nie zastępuje porady lekarza, dietetyka ani fizjoterapeuty. Jeśli masz wątpliwości dotyczące zdrowia, skonsultuj się ze specjalistą.</p>
 <h3 id="wersja-testowa-przestala-dzialac">Wersja testowa przestała działać</h3>
@@ -159,15 +178,17 @@ mark{background:var(--mark-bg);color:var(--mark-text);padding:0 .15em;border-rad
 </ol>
 <section class="summary" lang="en" aria-labelledby="summary-in-english">
 <h2 id="summary-in-english">Summary in English</h2>
-<p>This is the support page for the test version of BitePlan, a free, Polish-language meal-plan and workout diary for iPhone (iOS 18 or later). The test version is available through TestFlight only to invited adults (18+).</p>
+<p>This is the support page for the test version of BitePlan, a free, Polish-language meal-plan and workout diary for iPhone (iOS 18 or later). The test version is meant for adults (18+) and is installed through TestFlight from an e-mail invitation or an install link.</p>
 <ul>
 <li><strong>Contact:</strong> <a href="mailto:hi@mateo.works">hi@mateo.works</a> (Mateusz Szymkowicz, studio Mateo Works). Feedback can also be sent through TestFlight, for example from a screenshot taken in BitePlan.</li>
 <li><strong>No account, no sign-in, no BitePlan server.</strong> Data is on the iPhone, in its iPhone backup (iCloud or a computer) if that is turned on, and in any backup files and spreadsheets the person saves outside the app. The author has no access to it.</li>
 <li><strong>Backup and restore:</strong> <span lang="pl">„Profil i ustawienia → Twoje dane → Eksportuj kopię danych”</span> saves an unencrypted JSON file, for example in Files; <span lang="pl">„Przywróć z kopii”</span> adds missing entries, updates entries that are newer in the file, and deletes nothing. <span lang="pl">„Przypominaj o kopii”</span> reminds at 19:00, once a week, when the last backup is more than 30 days old or there is none yet. A CSV export is also available.</li>
-<li><strong>Adding one's own plan (optional):</strong> the person sends the plan to the author by e-mail to <a href="mailto:hi@mateo.works">hi@mateo.works</a> or in a message, receives a BitePlan file and adds it in <span lang="pl">„Biblioteka → Moje plany → Wczytaj plan z pliku”</span>.</li>
+<li><strong>Adding one's own plan (optional):</strong> the person sends the plan to the author by e-mail to <a href="mailto:hi@mateo.works">hi@mateo.works</a> or in a message, receives a BitePlan file and opens it in BitePlan (a <code>.biteplan</code> file) or adds it in <span lang="pl">„Biblioteka → Moje plany → Wczytaj plan z pliku”</span> (a <code>.json</code> file).</li>
+<li><strong>Sharing (optional):</strong> <span lang="pl">„Udostępnij plan”</span> sends a plan as a <code>.biteplan</code> file, only to the person or app chosen in the share sheet, which can pass it on; the file holds the plan only, not the person's entries, weights, notes or history. <span lang="pl">„Profil i ustawienia → Udostępnij BitePlan”</span> shows a QR code with the TestFlight install link and can send that link; the link is the same for everyone and should be passed on only to adults.</li>
+<li><strong>Deleting a plan:</strong> a plan in <span lang="pl">„Moje plany”</span> can be deleted with <span lang="pl">„Usuń”</span> (with <span lang="pl">„Cofnij”</span>), except a plan in progress; plans built into the app cannot be deleted. Eaten meals and workout history stay; the plan stays in the app's data, marked as deleted, until <span lang="pl">„Usuń dane z tego iPhone'a…”</span>.</li>
 <li><strong>Health app (optional, off by default):</strong> BitePlan can read weight, body fat percentage, height and waist circumference (shown as <span lang="pl">„Obwód brzucha”</span>), without storing them, and save finished strength workouts.</li>
 <li><strong>Notifications:</strong> the end of a rest period during a workout (iOS asks for permission at the first rest), plus only the reminders the person turns on: a habit-challenge check-in reminder (on the challenge screen) and a backup reminder (<span lang="pl">„Profil i ustawienia → Twoje dane”</span>).</li>
-<li><strong>Deleting all data:</strong> <span lang="pl">„Profil i ustawienia → Twoje dane → Usuń dane z tego iPhone'a…”</span>, or delete the app.</li>
+<li><strong>Deleting all data:</strong> <span lang="pl">„Profil i ustawienia → Twoje dane → Usuń dane z tego iPhone'a…”</span>, or delete the app. Backup files, plan files in messages and Files, plans sent to other people and workouts in the Health app stay where they are.</li>
 <li><strong>Not medical care:</strong> BitePlan does not diagnose or treat and does not replace a doctor, dietitian or physiotherapist.</li>
 <li><strong>Leaving the test:</strong> end testing in TestFlight and delete the app. Deletion of data held by the author can be requested at <a href="mailto:hi@mateo.works">hi@mateo.works</a>.</li>
 </ul>
